@@ -1,6 +1,10 @@
-# Express Starter Project
+# Guest book
 
-This project includes the packages and babel setup for an express server, and is just meant to make things a little simpler to get up and running with.
+This project is build with NodeJS and Express using MongoDB and mongoose as database.
+
+I created two models, 
+First: Guestbook User model, with a object including name, password and accessToken and routes with GET and PUSH with endpoints /signup, /login, as well as /login with id param for the user to access the memberpage. 
+Second: Guestbook Message model, with an object including message and author. Also routes and endpoints in order to PUSH a new message, GET all messages, PUT to change a message and DELETE to delete a message.
 
 ## Getting started
 
